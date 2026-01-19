@@ -1,0 +1,12 @@
+{
+  "name": "Arch Package Builder",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "builder",
+  "customizations": {
+    "vscode": {
+      "extensions": ["mads-hartmann.bash-ide-vscode"]
+    }
+  }
+}
